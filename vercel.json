@@ -1,8 +1,6 @@
 {
-    "functions": {
-      "yourFunctionName": {
+    "server": {
         "maxDuration": 30 
-      }
     }
   }
   
