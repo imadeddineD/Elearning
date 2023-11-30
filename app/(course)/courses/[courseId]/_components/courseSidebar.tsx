@@ -106,6 +106,7 @@ const courseSidebar = async ({
       <div className="flex flex-col w-full">
         {validChapters.map((chapter) => (
           <CourseSidebarItem
+            key={chapter._id.toString()}
             id={chapter._id}
             label={chapter.title}
             isCompleted={Completed ? (Completed?.isCompleted ? true : false ) : false}

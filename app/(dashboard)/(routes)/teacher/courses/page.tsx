@@ -17,7 +17,7 @@ const Page = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const res = await fetch('http://localhost:3000/api/courses', {
+        const res = await fetch(`${process.env.NEXT_PUBLIC_APP_URL}/api/courses`, {
           cache: 'no-store',
         });
 
