@@ -45,7 +45,7 @@ export const getChapter = async ({
           courseId, 
     });
 
-    const purchaseLen   = purchase.length
+    const purchaseLen : any   = purchase.length
 
     const course  = await Course.find({
         isPublished: true,

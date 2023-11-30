@@ -45,6 +45,8 @@ const page = async ({
   });
 
   
+
+  
 const isPurchase = purchaseLen  > 0 ? true : false 
   // const isLocked = !chapter.isFree && !purchase;
   const isLocked = !chapter.isFree && !isPurchase
